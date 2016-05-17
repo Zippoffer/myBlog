@@ -1,0 +1,11 @@
+body {
+	background: lightblue;
+}
+p {
+	font-family: Georgia, "New Times Roman", "sans serif";
+}
+h1.first {
+	text-align: center;
+	background-color: green;
+	font-size: 3em;
+}
