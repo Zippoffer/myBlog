@@ -6,14 +6,16 @@
 	<title>bank</title>
 	<link rel="stylesheet" href="main.css">
 </head>
+<fieldset class="bod">
 <body>
 <header id="header" class="">
 	<h1>Bank Loan</h1>
 </header><!-- /header -->
 <fieldset class="firster">
+	<legend><strong>NAME</strong></legend>
 	<legend>first name</legend>
 	<label for="first name">
-	<input type="text" name="first name">
+	<input type="text" name="first name" autofocus="firstname">
 
 	<legend>middle initial</legend>
 	<label for="middle intitial">
@@ -24,6 +26,7 @@
 	<input type="text" name="last name">
 </fieldset>
 <fieldset class="firsterer">
+	<legend><strong>INFO</strong></legend>
 	<legend>applicant address</legend>
 	<label for="applicant address">
 	<textarea name="applicant address"></textarea>
@@ -37,59 +40,81 @@
 	<textarea name="employer address"></textarea>
 </fieldset>
 <fieldset class="first">
-	<legend>loan type</legend>
+	<legend><strong>LOAN TYPE</strong></legend>
 	<label for="loan">
 		<input type="checkbox" name="commercial">
-		<option>commercial</option>
+		<label>commercial</label>
 	</label>
 	<label for="loan">
 		<input type="checkbox" name="real estate">
-		<option>real estate</option>
+		<label>real estate</label>
 	</label>
 	<label for="loan">
 		<input type="checkbox" name="personal">
-		<option>personal</option>
+		<label>personal</label>
 	</label>
 	<label for="loan">
 		<input type="checkbox" name="mortgage">
-		<option>mortgage</option>
+		<label>mortgage</label>
 	</label>
 </fieldset>
 <fieldset class="second">
-	<legend>amount of loan</legend>
+	<legend><strong>AMOUNT OF LOAN</strong></legend>
 	<label for ="amount of loan">
 		<input type="text" name="amount of loan">
 	</label>
 </fieldset>
 <fieldset class="third">
-	<legend>length of loan</legend>
-	<ol>
+	<legend><strong>LENGTH OF LOAN</strong></legend>
+	<ol type="I">
+		
+		<li>
 		<option>5yrs</option>
-		<li><label for =""><input type="radio" name="5"></label></li>
+		<label for =""><input type="checkbox" name="5"></label>
+		</li>
+		
+		<li>
 		<option>15yrs</option>
-		<li><label for =""><input type="radio" name="15"></label></li>
+		<label for =""><input type="checkbox" name="15"></label>
+		</li>
+		
+		<li>
 		<option>30yrs</option>
-		<li><label for =""><input type="radio" name="30"></label></li>
+		<label for =""><input type="checkbox" name="30"></label>
+		</li>
 	</ol>
 </fieldset>
 <fieldset class="fourth">
-	<legend>special conditions</legend>
+	<legend><strong>SPECIAL CONDITIONS</strong></legend>
 	<ol>
-		<option>I have a down payment</option>
-		<li><label for =""><input type="checkbox" name="I have a down payment"></label></li>
-		<option>out of state</option>
-		<li><label for =""><input type="checkbox" name="out of state"></label></li>
-		<option>married</option>
-		<li><label for =""><input type="checkbox" name="married"></label></li>
-		<option>loan will be co-signed</option>
-		<li><label for =""><input type="checkbox" name="loan will be co-signed"></label></li>
+		
+		<li>
+			<option>I have a down payment</option>
+			<label for =""><input type="checkbox" name="I have a down payment"></label>
+		</li>
+		
+		<li>
+			<option>out of state</option>
+			<label for =""><input type="checkbox" name="out of state"></label>
+		</li>
+		
+		<li>
+			<option>married</option>
+			<label for =""><input type="checkbox" name="married"></label>
+		</li>
+		
+		<li>
+			<option>loan will be co-signed</option>
+			<label for =""><input type="checkbox" name="loan will be co-signed"></label>
+		</li>
 	</ol>
 </fieldset>
 <fieldset class="fifth">
-	<legend>additional comments</legend>
+	<legend><strong>ADDITIONAL COMMENTS</strong></legend>
 	<textarea name="additional comments" rows="12" cols="30"></textarea>
 </fieldset>
 <fieldset class="sixth">
+	<legend><strong>INFO</strong></legend>
 	<legend>email</legend>
 	<input type="text" name="">
 
@@ -97,7 +122,11 @@
 	<input type="text" name="">
 
 	<legend>linkedIn URL</legend>
-	<input type="text" name="">
+	<input type="URL" name="">
 </fieldset>
+<div>
+<input type="submit" name="">
+</div>
 </body>
+</fieldset>
 </html>
