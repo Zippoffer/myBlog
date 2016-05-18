@@ -1,0 +1,54 @@
+h1 {
+	text-align: center;
+}
+fieldset.firster {
+	display: inline-grid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+fieldset.firsterer {
+	display: inline-grid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+fieldset.first {
+	display: inline-grid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+fieldset.second {
+	display: inline-grid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+fieldset.third {
+	display: inline-grid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+fieldset.fourth {
+	display: inline-grid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+fieldset.fifth {
+	display: inline-grid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+fieldset.sixth {
+	display: inline-grid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+body {
+	width: 100%;
+}
